@@ -1,0 +1,580 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,nav,div,section,a,p,ul,ol,li,span,header,footer,img{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f6f7fa;
+}
+
+
+/* header part in csss start */
+.header_main{
+    background-image: url(../image/bannerpic.png);
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.graphpic{
+    background-image: url(../image/graph.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.navbar-brand{
+    padding-top: 65px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-top: 65px;
+}
+
+.navbar-nav .nav-item{
+    padding-left: 30px;
+}
+
+.navbar-nav .nav-item2{
+    width: 135px;
+    height: 50px;
+    background-color: transparent;
+    border: .5px solid #5584ff;
+    border-radius: 25px;
+    margin-left: 35px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-nav .nav-item2 .nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5584ff;
+   
+}
+
+.dashboard{
+    width: 880px;
+    height: 620px;
+}
+
+.h_tilte{
+    font-size: 60px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 150px;
+}
+
+.h_text{
+    font-size: 35px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 30px;
+}
+
+.h_btn{
+    width: 205px;
+    height: 50px;
+    background-color: #5584ff;
+    border-radius: 25px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h_btn a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* header part in csss end */
+
+/* data part in css start */
+.d_contain{
+    margin-top: 260px;
+    margin-bottom: 220px;
+}
+.d_img{
+    width: 95px;
+    height: 90px;
+}
+.d_title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #0e1a35;
+    margin-top: 60px;
+}
+
+.d_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 30px;
+}
+
+.d_butn{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #dadee7;
+    border-radius: 25px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d_butn:hover{
+    background-color: #5584ff;
+}
+.d_butn a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+
+.d_butn:hover a{
+    color: #ffffff;
+}
+/* data part in css end */
+
+/* browser part in css start */
+.browser_main{
+    margin-bottom: 120px;
+}
+.browser_con{
+    margin-left: 50px;
+}
+
+.browser_title{
+    font-size: 35px;
+    font-weight: 300;
+    color: #0e1a35;
+    margin-top: 40px;
+}
+
+.browser_text{
+    font-size: 13px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 30px;
+}
+
+.browser_icon{
+    font-size: 17px;
+    font-weight: 400;
+    color: #5584ff;
+    margin-top: 30px;
+}
+
+
+/* browser part in css end */
+
+/* banner part in css start */
+.banner_main{
+    background-image: url(../image/bannerpic.png);
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph_main{
+    background-image: url(../image/b_banner.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.banner_title span{
+   color: #8492af;
+}
+.banner_icon{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8492af;
+}
+.banner_con{
+    padding-left: 40px;
+    position: relative;
+}
+
+.ma_1{
+   padding-top: 20px;
+}
+
+.ma_img{
+    position: relative;
+}
+.ma_2{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.banner_con2{
+    padding-left: 10px;
+}
+
+.ma_3{
+    padding-top: 20px;
+}
+
+.b_btn{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    border: 1px dashed #8492af;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b_btn a{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8492af;
+}
+.banner_con3{
+    padding: 0 60px;
+}
+.b_title{
+    font-size: 40px;
+    font-weight: 200;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.b_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 15px;
+}
+
+.b_icon{
+    font-size: 30px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 20px;
+}
+
+.b_icon i{
+    padding: 0 2px;
+}
+
+.hand {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: rgba(39,53,83,0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 70px;
+	left: 223px;
+}
+
+.hand2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(200,200,240,0.2);
+}
+
+.hand2 i{
+    font-size: 30px;
+    color: #ffffff;
+}
+/* banner part in css end */
+ 
+
+/* psd part in css start */
+.psd_heading{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.p_title{
+    font-size: 50px;
+    font-weight: 200;
+    color: #0e1a35;
+}
+
+.p_text{
+    font-size: 17px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 40px;
+}
+
+.ps_title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0e1a35;
+}
+
+.ps_line{
+    width: 540px;
+    height: 1px;
+    background-color: #5584ff;
+    margin-top: 10px;
+    position: relative;
+}
+
+.ps_line2{
+    width: 520px;
+    height: 1px;
+    background-color: #5584ff;
+    margin-top: 10px;
+    position: relative;
+}
+
+.ps_text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8492af;
+    margin-top: 10px;
+}
+.psd_contain{
+    position: relative;
+}
+.psd_con {
+	position: absolute;
+	top: 8%;
+	left: 0%;
+}
+
+.psd_co2{
+    text-align: end;
+    position: absolute;
+	bottom: 22% ;
+	right: 0%;
+}
+.psd_img{
+    background-image: url(../image/high.png);
+    width: 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ps_around {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(153,181,255,0.6);
+	position: absolute;
+	right: -4%;
+	top: 20%;
+}
+
+.ps_around2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(85,132,255,0.9);
+}
+
+.ps_around3 {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(153,181,255,0.6);
+	position: absolute;
+    top: 20%;
+	left: -4%;	
+}
+/* psd part in css end */
+
+/* priceing part in css start */
+.p_heading{
+    font-size: 50px;
+    font-weight: 100;
+    color: #0e1a35;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pr_contain{
+    padding: 50px 0;
+    background-color: #ffffff;
+    margin: 100px 30px;
+    box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.70);
+}
+
+.pr_title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #0e1a35;
+    text-align: center;
+}
+
+.pr_price{
+    font-size: 60px;
+    font-weight: 700;
+    color: #0e1a35;
+    text-align: center;
+    padding-top: 20px;
+}
+.pr_price small{
+    font-size: 35px;
+}
+
+.pr_price span{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.pr_icon1{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    padding-top: 30px;
+    text-align: center;
+}
+.pr_icon2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    padding-top: 10px;
+    text-align: center;
+}
+.pr_icon3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.pr_icon4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.pr_icon1 i{
+    font-size: 18px;
+    color: #5584ff;
+}
+.pr_icon2 i{
+    font-size: 18px;
+    color: #5584ff;
+}
+
+.pr_icon3 i{
+    font-size: 18px;
+    color: #f83c7b;
+}
+
+.pr_icon4 i{
+    font-size: 18px;
+    color: #f83c7b;
+}
+
+.p_h_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+    text-align: center;
+}
+
+.p_h_btn{
+    width: 205px;
+    height: 50px;
+    background-color: #5584ff;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_h_btn a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+/* priceing part in css end */
+
+
+/* footer part in html start */
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #0e1a35;
+}
+
+.f_copy{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af;
+}
+
+.f_copy span{
+    font-size: 19px;
+    font-weight: 700;
+    color: #5584ff;
+}
+
+.f_contain ul{
+    display: flex;
+    justify-content: end;
+}
+
+.f_contain ul li{
+    padding: 0 15px;
+}
+
+.f_contain ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8492af
+}
+/* footer part in html end */
+  
